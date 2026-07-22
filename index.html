@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO básico -->
+<title>Nexus Electricidad — Ingeniería, Obras y Ensayos Eléctricos en San Juan</title>
+<meta name="description" content="Ingeniería, obras eléctricas llave en mano, ensayos y mediciones en San Juan y Cuyo. Un solo responsable técnico para el ciclo completo del activo eléctrico.">
+<meta name="keywords" content="ingeniería eléctrica San Juan, obras eléctricas llave en mano, ensayos y mediciones eléctricas, electricista San Juan, media tensión, puesta a tierra, termografía, calidad de energía, Cuyo">
+<meta name="author" content="Nexus Electricidad">
+<link rel="canonical" href="https://www.nexuselectricidad.com/">
+<link rel="icon" type="image/png" href="isotipo-nexus-electricidad.png">
+
+<!-- GEO / geolocalización -->
+<meta name="geo.region" content="AR-J">
+<meta name="geo.placename" content="San Juan, Argentina">
+<meta name="ICBM" content="-31.5375, -68.5364">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nexus Electricidad — Ingeniería, Obras y Ensayos Eléctricos en San Juan">
+<meta property="og:description" content="Diseñamos, construimos y verificamos instalaciones eléctricas para que su operación no se detenga. Un solo responsable técnico, de punta a punta.">
+<meta property="og:url" content="https://www.nexuselectricidad.com/">
+<meta property="og:image" content="https://www.nexuselectricidad.com/logo-nexus-electricidad.png">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Nexus Electricidad">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nexus Electricidad — Ingeniería, Obras y Ensayos Eléctricos en San Juan">
+<meta name="twitter:description" content="Ingeniería, obras eléctricas llave en mano, ensayos y mediciones en San Juan y Cuyo.">
+<meta name="twitter:image" content="https://www.nexuselectricidad.com/logo-nexus-electricidad.png">
+
+<!-- Datos estructurados para buscadores e IA (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Nexus Electricidad",
+  "description": "Ingeniería, obras eléctricas llave en mano, ensayos y mediciones eléctricas. Un solo responsable técnico para el ciclo completo del activo eléctrico.",
+  "url": "https://www.nexuselectricidad.com/",
+  "logo": "https://www.nexuselectricidad.com/logo-nexus-electricidad.png",
+  "image": "https://www.nexuselectricidad.com/logo-nexus-electricidad.png",
+  "email": "info@nexusenergy.com.ar",
+  "telephone": "+5492644843666",
+  "areaServed": ["San Juan", "Cuyo", "Argentina"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Juan",
+    "addressRegion": "San Juan",
+    "addressCountry": "AR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -31.5375,
+    "longitude": -68.5364
+  },
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Proyectos e ingeniería eléctrica" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Obras eléctricas llave en mano" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ensayos, mediciones y confiabilidad" } }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --cream:#fdfff3;
+    --black:#0c0c0a;
+    --black-2:#161613;
+    --orange:#f07417;
+    --orange-dark:#c85f10;
+    --orange-light:#f9a566;
+    --orange-pale:#fcd9bc;
+    --line:#e4e0cf;
+    --line-dark:#2c2c26;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--cream);color:var(--black);font-family:Arial,Helvetica,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .mono{font-family:Arial,Helvetica,sans-serif;letter-spacing:0.02em;}
+  a{color:inherit;}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 32px;}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.in{opacity:1;transform:translateY(0);}
+
+  /* LOGO */
+  .logo{display:flex;align-items:center;gap:10px;}
+  .logo-word{font-size:19px;font-weight:700;letter-spacing:-0.01em;line-height:1;}
+  .logo-word span{color:var(--orange);}
+  .logo-sub{font-size:9px;letter-spacing:0.3em;color:var(--orange);margin-top:3px;display:block;}
+  .logo.on-dark .logo-word{color:var(--cream);}
+
+  /* NAV */
+  nav{position:sticky;top:0;z-index:60;background:rgba(253,255,243,0.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:96px;}
+  .navlinks{display:flex;gap:34px;font-size:14px;font-weight:500;}
+  .navlinks a{text-decoration:none;color:var(--black);opacity:.72;transition:opacity .2s;}
+  .navlinks a:hover{opacity:1;}
+  .nav-right{display:flex;align-items:center;gap:18px;}
+  .nav-tel{font-family:Arial,Helvetica,sans-serif;font-size:13px;text-decoration:none;opacity:.8;display:none;}
+  .nav-cta{font-size:14px;font-weight:600;background:var(--orange);color:var(--black);padding:11px 22px;border-radius:2px;text-decoration:none;white-space:nowrap;transition:background .2s;}
+  .nav-cta:hover{background:var(--orange-dark);}
+  .navtoggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:var(--black);}
+
+  /* HERO */
+  .hero{position:relative;background:linear-gradient(rgba(12,12,10,.82),rgba(12,12,10,.9)),url('hero-instalacion-electrica.jpg') center/cover no-repeat, var(--black);color:var(--cream);padding:120px 0 56px;overflow:hidden;}
+  .hero-bg{position:absolute;inset:0;opacity:.5;pointer-events:none;}
+  .hero-watermark{position:absolute;bottom:-30px;right:-20px;width:220px;height:auto;opacity:.08;pointer-events:none;}
+  .hero-bolt{width:0.7em;height:auto;display:inline-block;margin-left:8px;vertical-align:middle;transform:translateY(-0.05em);}
+  .hero .inner{position:relative;z-index:1;}
+  .eyebrow{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:var(--orange-dark);text-transform:uppercase;letter-spacing:0.14em;display:flex;align-items:center;gap:7px;margin-bottom:16px;}
+  .eyebrow .bolt-icon{flex-shrink:0;width:9px;height:13px;}
+  .hero .eyebrow{font-size:12.5px;letter-spacing:0.16em;margin-bottom:24px;color:var(--orange-light);}
+  .confianza .eyebrow{font-size:12px;letter-spacing:0.12em;justify-content:center;margin-bottom:32px;}
+  .section-head .eyebrow{font-size:12px;letter-spacing:0.14em;margin-bottom:16px;}
+  .hero h1{font-size:clamp(30px,4.6vw,50px);font-weight:700;line-height:1.18;max-width:22ch;margin-bottom:24px;letter-spacing:-0.01em;}
+  .hero p.lead{font-size:19px;color:#d8dccb;max-width:48ch;margin-bottom:38px;}
+  .hero-ctas{display:flex;gap:16px;flex-wrap:wrap;}
+  .btn-primary{font-weight:600;font-size:15px;background:var(--orange);color:var(--black);padding:15px 28px;border-radius:2px;text-decoration:none;display:inline-block;transition:background .2s,transform .15s;}
+  .btn-primary:hover{background:var(--orange-light);transform:translateY(-1px);}
+  .btn-secondary{font-weight:600;font-size:15px;border:1px solid #45453e;color:var(--cream);padding:15px 28px;border-radius:2px;text-decoration:none;display:inline-block;transition:border-color .2s;}
+  .btn-secondary:hover{border-color:var(--orange-light);}
+  .track{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid var(--line-dark);padding-top:30px;}
+  .track-label{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#8a8a80;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:7px;}
+  .track-value{font-size:21px;font-weight:600;color:var(--orange-light);font-family:Arial,Helvetica,sans-serif;}
+
+  /* CONFIANZA */
+  .confianza{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:56px 0;}
+  .confianza-grid{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:48px 60px;}
+  .confianza-grid img{max-height:70px;max-width:240px;width:auto;height:auto;object-fit:contain;filter:grayscale(100%);opacity:.55;transition:opacity .2s,filter .2s;}
+  .confianza-grid img:nth-child(1){transform:scale(0.6);margin-right:-15px;}
+  .confianza-grid img:nth-child(2){transform:scale(2.1);margin-right:0;}
+  .confianza-grid img:nth-child(3){transform:scale(3.3);margin-left:-10px;margin-right:50px;}
+  .confianza-grid img:hover{filter:grayscale(0%);opacity:1;}
+
+  #nosotros{position:relative;overflow:hidden;}
+  #nosotros::before{content:"";position:absolute;inset:0;background:url('planos-electricos.jpg') center/cover no-repeat;opacity:0.05;pointer-events:none;}
+  #nosotros .wrap{position:relative;z-index:1;}
+
+  section{padding:92px 0;}
+  .section-head{max-width:640px;margin-bottom:56px;}
+  .section-head h2{font-size:clamp(25px,3.4vw,35px);font-weight:700;margin-bottom:15px;letter-spacing:-0.01em;}
+  .section-head p{color:#4a4a44;font-size:17px;}
+
+  /* POSICIONAMIENTO */
+  .posicionamiento{position:relative;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;}
+  .posicionamiento::before{content:"";position:absolute;inset:0;background:url('planos-electricos.jpg') center/cover no-repeat;opacity:0.05;pointer-events:none;}
+  .posicionamiento .wrap{position:relative;z-index:1;}
+  .pos-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  .pos-card{padding:26px 24px;border-right:1px solid var(--line);}
+  .pos-card:last-child{border-right:none;}
+  .pos-card.active{background:var(--orange);}
+  .pos-tag{font-family:Arial,Helvetica,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:#8a8a80;display:block;margin-bottom:10px;}
+  .pos-card.active .pos-tag{color:rgba(12,12,10,.6);}
+  .pos-card h3{font-size:19px;font-weight:700;margin-bottom:8px;}
+  .pos-card p{font-size:15.5px;color:#5a5a52;}
+  .pos-card.active p{color:rgba(12,12,10,.78);}
+
+  /* SERVICIOS */
+  .serv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .serv-card{border:1px solid var(--line);border-radius:6px;padding:32px 28px;background:#fff;transition:border-color .2s,box-shadow .2s;}
+  .serv-card:hover{border-color:var(--orange);box-shadow:0 4px 20px rgba(240,116,23,.08);}
+  .serv-icon{width:55px;height:55px;margin:0 auto 20px auto;object-fit:contain;object-position:center;display:block;}
+  .serv-num{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:var(--orange);text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px;display:block;}
+  .serv-card h3{font-size:19px;font-weight:700;margin-bottom:10px;}
+  .serv-card p{color:#4a4a44;font-size:15px;}
+
+  /* RESPONSABLE */
+  .responsable{background:var(--black);color:var(--cream);}
+  .resp-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+  .resp-grid h2{font-size:clamp(25px,3.4vw,34px);font-weight:700;line-height:1.22;margin-bottom:20px;letter-spacing:-0.01em;}
+  .resp-grid p{color:#c9cdb9;font-size:16.5px;margin-bottom:15px;}
+  .resp-diagram{border:1px solid var(--line-dark);border-radius:6px;padding:24px;background:var(--black-2);}
+  .resp-diagram svg{width:100%;height:auto;display:block;}
+  .path-anim{stroke-dasharray:6 6;animation:dash 2s linear infinite;}
+  @keyframes dash{to{stroke-dashoffset:-24;}}
+
+  /* SEGMENTOS */
+  .segmentos{background:var(--orange-pale);}
+  .seg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  .seg-card{background:var(--cream);padding:30px;}
+  .seg-card .mono{font-size:11px;color:var(--orange-dark);text-transform:uppercase;letter-spacing:0.08em;display:block;margin-bottom:13px;}
+  .seg-card h3{font-size:17px;font-weight:700;margin-bottom:10px;}
+  .seg-card p{font-size:14px;color:#4a4a44;}
+  .seg-card{display:flex;flex-direction:column;}
+  .seg-card p{flex-grow:1;}
+  .seg-cta{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:var(--orange-dark);text-decoration:none;margin-top:16px;display:inline-block;}
+  .seg-cta:hover{color:var(--orange);}
+
+  /* B2C */
+  .b2c{background:var(--orange);color:var(--black);}
+  .b2c-grid{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap;}
+  .b2c h2{font-size:clamp(23px,3vw,29px);font-weight:700;max-width:32ch;letter-spacing:-0.01em;}
+  .btn-dark{font-weight:600;font-size:15px;background:var(--black);color:var(--cream);padding:15px 28px;border-radius:2px;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;transition:opacity .2s;}
+  .btn-dark:hover{opacity:.85;}
+
+  /* NOSOTROS */
+  .nosotros-grid{display:grid;grid-template-columns:1.2fr 0.8fr;gap:64px;align-items:start;}
+  .nosotros-grid h2{font-size:clamp(25px,3.4vw,34px);font-weight:700;margin-bottom:20px;letter-spacing:-0.01em;}
+  .nosotros-grid p{color:#4a4a44;font-size:16.5px;margin-bottom:15px;}
+  .valores-mini{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px;}
+  .valor-mini{font-size:13px;color:#4a4a44;padding-left:16px;border-left:2px solid var(--orange);}
+  .ficha{border:1px solid var(--line);border-radius:6px;padding:28px;background:#fff;}
+  .ficha-name{font-size:18px;font-weight:700;margin-bottom:4px;}
+  .ficha-role{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:var(--orange-dark);margin-bottom:20px;}
+  .ficha-row{display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid var(--line);font-size:13.5px;}
+  .ficha-row span:last-child{font-family:Arial,Helvetica,sans-serif;}
+  .ficha-row a{text-decoration:none;color:var(--orange-dark);}
+
+  /* CONTACTO */
+  .contacto{background:var(--black);color:var(--cream);}
+  .cont-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:64px;align-items:center;}
+  .contacto h2{font-size:clamp(25px,3.4vw,34px);font-weight:700;margin-bottom:18px;letter-spacing:-0.01em;}
+  .contacto p{color:#c9cdb9;font-size:16.5px;max-width:46ch;margin-bottom:30px;}
+  .cont-ctas{display:flex;gap:14px;flex-wrap:wrap;}
+  .contact-card{border:1px solid var(--line-dark);border-radius:6px;padding:28px;background:var(--black-2);}
+  .contact-row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line-dark);font-size:14.5px;}
+  .contact-row:last-child{border-bottom:none;}
+  .contact-row span:first-child{color:#8a8a80;}
+  .contact-row span:last-child{font-family:Arial,Helvetica,sans-serif;}
+  .contact-row a{text-decoration:none;color:var(--orange-light);}
+
+  footer{padding:36px 0;background:var(--black);border-top:1px solid var(--line-dark);}
+  .foot-grid{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:#8a8a80;font-size:12.5px;}
+  .foot-grid a{text-decoration:none;color:#8a8a80;}
+
+  /* WHATSAPP FLOAT */
+  .wa-float{position:fixed;bottom:24px;right:24px;z-index:70;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.25);}
+  .wa-float svg{width:26px;height:26px;fill:#fff;}
+
+  @media (max-width:860px){
+    .resp-grid,.nosotros-grid,.cont-grid{grid-template-columns:1fr;}
+    .track,.serv-grid,.seg-grid,.pos-grid{grid-template-columns:1fr;}
+    .pos-card{border-right:none;border-bottom:1px solid var(--line);}
+    .valores-mini{grid-template-columns:1fr;}
+    .navlinks{position:absolute;top:78px;left:0;right:0;background:var(--cream);flex-direction:column;padding:22px 32px;border-bottom:1px solid var(--line);display:none;gap:16px;}
+    .navlinks.open{display:flex;}
+    .navtoggle{display:block;}
+    .nav-tel{display:none !important;}
+    .b2c-grid{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<a class="wa-float" href="https://wa.me/5492644843666" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.28-1.38a9.9 9.9 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.14-4.9-4.33-.14-.19-1.17-1.55-1.17-2.96 0-1.4.74-2.09 1-2.38.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.8 2 .87 2.15.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.06.17-.19.72-.83.91-1.12.19-.29.38-.24.63-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.71-.17 1.39z"/></svg>
+</a>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">
+      <a href="/" aria-label="Ir al inicio">
+        <img src="logo-nexus-electricidad.png" alt="Nexus Electricidad" height="69" style="height:69px;width:auto;display:block;">
+      </a>
+    </div>
+    <button class="navtoggle" id="navtoggle" aria-label="Abrir menú">☰</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-tel mono" href="tel:+542644843666">+54 9 264 484-3666</a>
+      <a class="nav-cta" href="#contacto">Contanos sobre tu proyecto</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <svg class="hero-bg" viewBox="0 0 1140 460" preserveAspectRatio="xMidYMid slice">
+    <g stroke="#2c2c26" stroke-width="1" fill="none">
+      <path d="M900,40 H1060 V140 H1140"/>
+      <path d="M980,140 V260 H860 V340"/>
+      <path d="M1060,140 V40"/>
+    </g>
+    <g fill="#f07417" opacity=".7">
+      <circle cx="900" cy="40" r="3"/><circle cx="1060" cy="140" r="3"/><circle cx="860" cy="340" r="3"/><circle cx="980" cy="260" r="3"/>
+    </g>
+  </svg>
+  <img src="isotipo-nexus-electricidad.png" alt="" aria-hidden="true" class="hero-watermark">
+  <div class="wrap inner">
+    <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>San Juan · Cuyo · proyectos en todo el país</span>
+    <h1 style="color:var(--orange);">INGENIERÍA, OBRAS, ENSAYOS Y MEDICIONES ELÉCTRICAS<img src="rayo-naranja.png" alt="" aria-hidden="true" class="hero-bolt"></h1>
+    <p class="lead">Diseñamos, construimos y verificamos instalaciones eléctricas asegurando su operación continua.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#contacto">Contanos sobre tu proyecto →</a>
+      <a class="btn-secondary" href="#servicios">Ver servicios</a>
+    </div>
+  </div>
+</section>
+
+<section class="posicionamiento">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Misión y visión</span>
+      <h2>Un solo responsable técnico para el ciclo completo del activo eléctrico</h2>
+    </div>
+    <div class="pos-grid reveal">
+      <div class="pos-card active">
+        <span class="pos-tag mono">Misión</span>
+        <h3>Confiabilidad, seguridad y cumplimiento normativo</h3>
+        <p>Proveer servicios integrales de ingeniería, obras, ensayos y mediciones eléctricas que aseguren la confiabilidad, la seguridad y el cumplimiento normativo de las instalaciones, cubriendo el ciclo completo del activo eléctrico.</p>
+      </div>
+      <div class="pos-card">
+        <span class="pos-tag mono">Visión</span>
+        <h3>Referentes en Cuyo</h3>
+        <p>Consolidarse como la empresa de referencia en Cuyo para proyectos, obras y servicios eléctricos de criticidad elevada, reconocida por su rigor técnico, la trazabilidad de sus ensayos y su capacidad de respuesta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Servicios</span>
+      <h2>Los tres pilares del ciclo completo del activo eléctrico</h2>
+      <p>Somos responsables de las tres etapas del activo eléctrico.</p>
+    </div>
+    <div class="serv-grid reveal">
+      <div class="serv-card">
+        <img class="serv-icon" src="servicio-1.png" alt="Proyectos e ingeniería eléctrica">
+        <span class="serv-num mono">01</span>
+        <h3>Proyectos e ingeniería eléctrica</h3>
+        <p>Su proyecto eléctrico resuelto: estudios, cálculos y planos aptos para construir. Documentación APC que reduce al mínimo las consultas y los retrabajos de obra.</p>
+      </div>
+      <div class="serv-card">
+        <img class="serv-icon" src="servicio-2.png" alt="Obras eléctricas llave en mano">
+        <span class="serv-num mono">02</span>
+        <h3>Obras eléctricas llave en mano</h3>
+        <p>Montaje, dirección técnica, ensayos de recepción y certificación. Un contrato, un responsable: usted no coordina proveedores, lo hacemos nosotros.</p>
+      </div>
+      <div class="serv-card">
+        <img class="serv-icon" src="servicio-3.png" alt="Ensayos, mediciones y confiabilidad">
+        <span class="serv-num mono">03</span>
+        <h3>Ensayos, mediciones y confiabilidad</h3>
+        <p>Medimos, ensayamos y diagnosticamos sus instalaciones con informes trazables: usted sabe qué está bien, qué es urgente y cuánto cuesta resolverlo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="confianza">
+  <div class="wrap">
+    <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Empresas que confían en nosotros</span>
+    <div class="confianza-grid">
+      <img src="cliente-1.png" alt="Cliente 1">
+      <img src="cliente-2.png" alt="Cliente 2">
+      <img src="cliente-3.png" alt="Cliente 3">
+      <img src="cliente-4.png" alt="Cliente 4">
+    </div>
+  </div>
+</section>
+
+<section class="responsable">
+  <div class="wrap resp-grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--orange-light);"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Por qué un solo responsable</span>
+      <h2>Somos responsables de las tres etapas del activo eléctrico.</h2>
+      <p>Cuando el proyecto, la instalación y la medición quedan en manos separadas, cada proveedor responde solo por su parte — y la coordinación queda en usted.</p>
+      <p>Con un único responsable técnico, hay un interlocutor, un contrato y una documentación integrada, desde la memoria de cálculo hasta el protocolo de puesta en servicio. Usted no coordina proveedores, lo hacemos nosotros.</p>
+    </div>
+    <div class="resp-diagram reveal">
+      <svg viewBox="0 0 320 200" role="img" aria-label="Ciclo completo del activo eléctrico: ingeniería, obra y ensayos bajo un mismo responsable">
+        <circle cx="60" cy="45" r="30" fill="none" stroke="#f07417" stroke-width="1.6"/>
+        <text x="60" y="49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#fdfff3">Ingeniería</text>
+        <circle cx="160" cy="45" r="30" fill="none" stroke="#f07417" stroke-width="1.6"/>
+        <text x="160" y="49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#fdfff3">Obra</text>
+        <circle cx="260" cy="45" r="30" fill="none" stroke="#f07417" stroke-width="1.6"/>
+        <text x="260" y="49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#fdfff3">Ensayos</text>
+        <path class="path-anim" d="M90,45 H130 M190,45 H230" stroke="#f9a566" stroke-width="1.6"/>
+        <path d="M60,75 V160 H260 V75" fill="none" stroke="#45453e" stroke-width="1.2" stroke-dasharray="3 4"/>
+        <text x="160" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#8a8a80">un solo responsable técnico</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="segmentos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>A quién servimos</span>
+      <h2>¿Por dónde empezamos?</h2>
+    </div>
+    <div class="seg-grid reveal">
+      <div class="seg-card">
+        <span class="mono">Industrias, mineras y O&amp;G</span>
+        <h3>Continuidad operativa</h3>
+        <p>Empiece con una campaña de mediciones o una auditoría: informe trazable, desvíos priorizados y un plan de adecuación concreto.</p>
+        <a class="seg-cta" href="#contacto">Coordinar una visita →</a>
+      </div>
+      <div class="seg-card">
+        <span class="mono">EPCistas y constructoras</span>
+        <h3>Ingeniería confiable y en plazo</h3>
+        <p>Ingeniería eléctrica confiable y en plazo para su próxima obra — y el respaldo técnico para que su empresa entre a obras eléctricas especializadas.</p>
+        <a class="seg-cta" href="#contacto">Contanos de tu proyecto →</a>
+      </div>
+      <div class="seg-card">
+        <span class="mono">Comercios e instituciones</span>
+        <h3>Habilitación de punta a punta</h3>
+        <p>Su habilitación eléctrica resuelta de punta a punta: relevamiento, planos, mediciones y certificado, con un solo interlocutor.</p>
+        <a class="seg-cta" href="#contacto">Resolver mi habilitación →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="b2c">
+  <div class="wrap b2c-grid reveal">
+    <h2>¿Necesitás un electricista con respaldo profesional? Instalaciones, reparaciones y habilitaciones eléctricas.</h2>
+    <a class="btn-dark" href="https://wa.me/5492644843666" target="_blank" rel="noopener">Escribinos →</a>
+  </div>
+</section>
+
+<section id="nosotros">
+  <div class="wrap nosotros-grid">
+    <div class="reveal">
+      <span class="eyebrow"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Nosotros</span>
+      <h2>Experiencia que se puede verificar.</h2>
+      <p>Somos un equipo de ingenieros y técnicos profesionales de la electricidad con proyectos ejecutados en Oil &amp; Gas, parques solares y sistemas de distribución de baja y media tensión.</p>
+      <p>Atención directa: quien cotiza su proyecto es quien lo dirige y responde por él.</p>
+      <div class="valores-mini">
+        <div class="valor-mini">Rigor técnico y normativo</div>
+        <div class="valor-mini">Seguridad de las personas</div>
+        <div class="valor-mini">Confiabilidad y continuidad operativa</div>
+        <div class="valor-mini">Responsabilidad integral</div>
+      </div>
+    </div>
+    <div class="ficha reveal">
+      <div class="ficha-name">José Mustafá</div>
+      <div class="ficha-role">Director Comercial y de Desarrollo de Negocios</div>
+      <div class="ficha-row"><span>Zona</span><span>San Juan, Argentina</span></div>
+      <div class="ficha-row"><span>WhatsApp</span><a href="https://wa.me/5492644843666" target="_blank" rel="noopener">264 484-3666</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="wrap cont-grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--orange-light);"><svg class="bolt-icon" viewBox="0 0 10 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 1 L1 8 H5 L4 13 L9 6 H5 Z"/></svg>Contacto</span>
+      <h2>Su próxima obra eléctrica necesita un responsable.</h2>
+      <p>Empresas: coordinemos una reunión técnica. Hogares y comercios: escribinos por WhatsApp y te respondemos en el día.</p>
+      <div class="cont-ctas">
+        <a class="btn-primary" href="mailto:info@nexusenergy.com.ar">Escribir por email</a>
+        <a class="btn-secondary" href="https://wa.me/5492644843666" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="contact-card reveal">
+      <div class="contact-row"><span>Email</span><a href="mailto:info@nexusenergy.com.ar">info@nexusenergy.com.ar</a></div>
+      <div class="contact-row"><span>WhatsApp</span><a href="https://wa.me/5492644843666" target="_blank" rel="noopener">+54 9 264 484-3666</a></div>
+      <div class="contact-row"><span>Web</span><span>www.nexuselectricidad.com</span></div>
+      <div class="contact-row"><span>Zona</span><span>San Juan · Cuyo</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <span>© <span id="year"></span> Nexus Electricidad. Ingeniería, obra, ensayos y mediciones eléctricas.</span>
+    <a href="mailto:info@nexusenergy.com.ar">info@nexusenergy.com.ar</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.getElementById('navtoggle');
+  const links = document.getElementById('navlinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
